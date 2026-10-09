@@ -9,3 +9,8 @@ The dice poker game shows the use of Tkinter for graphics and the use of an even
 ## Peg Solitaire (PegSolitaire.py)
 
 This program is an example of a basic console game, without the use of graphics.  It is a solitaire game in which there is a rectangle with slots for pegs: initially all the slots, except for one, are occupied by a peg (at the console, a "P" refers to a peg, and an "X" refers to empty slot).  On a turn, the player can jump one peg over a single peg (in the vertical or horizontal direction) and must land at an empty slot; the jumped peg is removed from the board.  The goal of the game is to end with as few pegs left as possible.  A move is entered by first giving the coordinates of the peg which is to be moved; for example "2,3" indicates the peg in row 2 and column 3.  Then the player enters the coordinates of the empty location to move that peg to; for example "4,3" in order to move the peg down 2 rows.
+
+
+## Quiz Game (QuizProgramFiles)
+
+This basic program asks the user a series of trivia questions, indicating for each question if the user is correct or incorrect.  At the end, the user is told the percentage of questions they got correct.  This shows a basic example of file reading, as the text for the questions and answers is in a separate text file.  The format of the text file is this: a line for a question (should indicate some multiple choice options), followed by a line for the correct answer.
