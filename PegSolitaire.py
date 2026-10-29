@@ -1,6 +1,8 @@
 '''
 By Kerry Ojakian
 Fall 2019
+Reconsidered 2026.
+Again again (testing ...)
 '''
 
 from random import *
